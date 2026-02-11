@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/Exercise1/">
+    <Project Path="ejem01/ejem01.csproj" />
+  </Folder>
+  <Folder Name="/Exercise2/">
+    <Project Path="TheGreathesNumber/TheGreathesNumber.csproj" Id="e5f1bdc9-a4ce-4979-b81d-952466aab74e" />
+  </Folder>
+  <Folder Name="/Exercise3/">
+    <Project Path="SortNumbers/SortNumbers.csproj" Id="7bcdfcac-b536-48a5-99b4-2fee4bf5ca39" />
+  </Folder>
+  <Folder Name="/Exercise4/">
+    <Project Path="IsMultipleOfAnother/IsMultipleOfAnother.csproj" Id="32cc8ddc-8c3c-42fd-9dc0-44766b688757" />
+  </Folder>
+  <Folder Name="/Exercise5/">
+    <Project Path="IsLeapYear/IsLeapYear.csproj" Id="195d7139-8c2f-4727-87f7-23b9eefe9617" />
+  </Folder>
+  <Folder Name="/Exercise6/">
+    <Project Path="SimplePayRoll/SimplePayRoll.csproj" Id="dd4718cd-fe07-4ce1-87c4-a3382f3815a4" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="../../../../../../ProjectslogicConcepts/LogicConcepts/Shared/Shared.csproj" />
+  </Folder>
+</Solution>
