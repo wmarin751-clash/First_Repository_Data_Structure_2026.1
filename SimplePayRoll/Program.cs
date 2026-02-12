@@ -13,7 +13,7 @@ do
     var salary = (decimal)workHours * hourValue;
     if (salary < salaryMinimun)
     {
-        Console.WriteLine($"Nombre...............: {name}");
+        Console.WriteLine($"Nombre...............: {name}");// console
         Console.WriteLine($"Salario..............: {salaryMinimun:C2}. ");
     }
     else
