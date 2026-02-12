@@ -1,6 +1,6 @@
 ﻿using Shared;
 
-var answer = string.Empty;// Es un estring vacio
+var answer = string.Empty;// Es un estring vacio.
 var options = new List<string> { "s", "n" };
 
 do
