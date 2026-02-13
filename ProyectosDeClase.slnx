@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Exercise1/">
-    <Project Path="ejem01/ejem01.csproj" />
+    <Project Path="ejem01/EvenOrOddNumber.csproj" />
   </Folder>
   <Folder Name="/Exercise2/">
     <Project Path="TheGreathesNumber/TheGreathesNumber.csproj" Id="e5f1bdc9-a4ce-4979-b81d-952466aab74e" />
