@@ -1,35 +1,34 @@
-﻿using System;
-// 1. Definición de variables y constantes
-const int DeskPrice = 650000;
-int cantidad;
-double GrossTotal, Descount, FinalValue;
-
-// 2. Entrada de datos
-Console.Write("Número de escritorios: ");
-// Leemos la entrada y la convertimos a entero
-cantidad = int.Parse(Console.ReadLine());
-
-// 3. Proceso y Lógica de Descuentos
-GrossTotal = cantidad * DeskPrice;
-
-if (cantidad < 5)
+﻿using Shared;
+var answer = string.Empty;
+var options = new List<string> { "s", "n" };
+do
 {
-    Descount = GrossTotal * 0.10; // 10% de descuento
-}
-else if (cantidad < 10)
+     var desks = ConsoleExtension.GetInt("Número de escritorios: ");
+    var valueToPay = CalculateValue(desks);
+   
+    Console.WriteLine($"Valor a pagar........: {valueToPay:C2}");
+    do
+    {
+        answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
+    } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
+
+} while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
+decimal CalculateValue(int desks)
 {
-    Descount = GrossTotal * 0.20; // 20% de descuento
+    float discount;
+     if (desks < 5)
+    {
+        discount = 0.1f;
+    }
+    else if (desks < 10)
+    {
+        discount = 0.2f;
+    }
+    else
+    {
+        discount = 0.4f;
+    }
+    return desks * 650000M * (decimal)(1 - discount);
+    throw new NotImplementedException();
 }
-else
-{
-    Descount = GrossTotal * 0.40; // 40% de descuento
-}
-
-FinalValue = GrossTotal - Descount;
-
-// 4. Salida de resultados
-Console.WriteLine("El valor a pagar es: " + FinalValue);
-
-// Pausa para que no se cierre la consola inmediatamente
-Console.WriteLine("\nPresione cualquier tecla para salir...");
-Console.ReadKey();
+Console.WriteLine("Game Over.");  
