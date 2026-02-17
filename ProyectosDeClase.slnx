@@ -1,31 +1,32 @@
 <Solution>
-  <Folder Name="/Exercise1/">
+  <Folder Name="/Exercise01/">
     <Project Path="ejem01/EvenOrOddNumber.csproj" />
   </Folder>
-  <Folder Name="/Exercise2/">
+  <Folder Name="/Exercise02/">
     <Project Path="TheGreathesNumber/TheGreathesNumber.csproj" Id="e5f1bdc9-a4ce-4979-b81d-952466aab74e" />
   </Folder>
-  <Folder Name="/Exercise3/">
+  <Folder Name="/Exercise03/">
     <Project Path="SortNumbers/SortNumbers.csproj" Id="7bcdfcac-b536-48a5-99b4-2fee4bf5ca39" />
   </Folder>
-  <Folder Name="/Exercise4/">
+  <Folder Name="/Exercise04/">
     <Project Path="IsMultipleOfAnother/IsMultipleOfAnother.csproj" Id="32cc8ddc-8c3c-42fd-9dc0-44766b688757" />
   </Folder>
-  <Folder Name="/Exercise5/">
+  <Folder Name="/Exercise05/">
     <Project Path="IsLeapYear/IsLeapYear.csproj" Id="195d7139-8c2f-4727-87f7-23b9eefe9617" />
   </Folder>
-  <Folder Name="/Exercise6/">
+  <Folder Name="/Exercise06/">
     <Project Path="SimplePayRoll/SimplePayRoll.csproj" Id="dd4718cd-fe07-4ce1-87c4-a3382f3815a4" />
   </Folder>
-  <Folder Name="/Exercise7/">
+  <Folder Name="/Exercise07/">
     <Project Path="Discount/Discount.csproj" Id="0e7f81df-67cb-4867-bd3b-f30207b8aeb6" />
   </Folder>
-  <Folder Name="/Exercise8/">
+  <Folder Name="/Exercise08/">
     <Project Path="RegistrationValue/RegistrationValue.csproj" Id="6e20299f-8797-4242-8a28-633c38720c0d" />
   </Folder>
-  <Folder Name="/Exercise9/">
+  <Folder Name="/Exercise09/">
     <Project Path="Shipping/Shipping.csproj" Id="0375440c-3336-4b44-a39c-f26bbcc1c8a5" />
   </Folder>
+  <Folder Name="/Exercise10/" />
   <Folder Name="/Shared/">
     <Project Path="../../../../../../ProjectslogicConcepts/LogicConcepts/Shared/Shared.csproj" />
   </Folder>
