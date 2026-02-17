@@ -5,7 +5,7 @@ var options = new List<string> { "s", "n" };
 
 do
 {
-    Console.WriteLine("*** DATOS DE ENTRADA ***");
+    Console.WriteLine("*** DATOS DE ENTRADA ***");// datos
     var CC = ConsoleExtension.GetDecimal("Costo de compra ($)....................................................: ");
 
     var tpOptions = new List<string> { "p", "n" };
