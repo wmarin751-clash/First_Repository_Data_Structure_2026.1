@@ -15,7 +15,7 @@ do
         TP = ConsoleExtension.GetValidOptions("Tipo de producto [P]erecedero, [N]o perecedero.........................: ", tpOptions);
     } while (!tpOptions.Any(x => x.Equals(TP, StringComparison.CurrentCultureIgnoreCase)));
 
-    var tcOptions = new List<string> { "f", "a" };
+    var tcOptions = new List<string> { "f", "a"  };
     var TC = string.Empty;
     do
     {
