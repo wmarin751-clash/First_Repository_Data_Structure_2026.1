@@ -35,6 +35,9 @@
   <Folder Name="/Exercise12/">
     <Project Path="SumAndAverage/SumAndAverage.csproj" Id="6b821a5c-32be-4bc2-ae0d-e6e645c9e60b" />
   </Folder>
+  <Folder Name="/Exercise13/">
+    <Project Path="Factorial/Factorial.csproj" Id="10ecc5b1-ec02-4b9a-8335-4dfd8dae9e66" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="../../../../../../ProjectslogicConcepts/LogicConcepts/Shared/Shared.csproj" />
   </Folder>
