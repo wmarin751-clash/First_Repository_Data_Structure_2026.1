@@ -41,6 +41,9 @@
   <Folder Name="/Exercise14/">
     <Project Path="Taylor/Taylor.csproj" Id="01bb4e99-2a2e-457c-b41c-675746f2127d" />
   </Folder>
+  <Folder Name="/Exercise15/">
+    <Project Path="TaylorModified/TaylorModified.csproj" Id="100a187a-814a-42c4-bb54-a08d85d006b2" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="../../../../../../ProjectslogicConcepts/LogicConcepts/Shared/Shared.csproj" />
   </Folder>
